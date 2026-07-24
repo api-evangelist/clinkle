@@ -1,22 +1,66 @@
 aid: clinkle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clinkle.png
 name: Clinkle
-description: Clinkle is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clinkle was a Silicon Valley mobile-payments startup founded in 2012 by
+  Stanford student Lucas Duplan. In 2013 it raised roughly $30 million in what
+  was then reported as the largest seed round in history, backed by Andreessen
+  Horowitz, Peter Thiel, Marc Benioff, Accel's Jim Breyer, Richard Branson, and
+  Intel Capital. The company promised a phone-to-phone payments technology but
+  never shipped a viable product, launched a poorly received "Treats" debit-card
+  app, cycled through multiple pivots and leadership turmoil, and lost its window
+  to Venmo and Apple Pay. By 2016 Clinkle had quietly shut down with no official
+  announcement. It is retained in the API Evangelist network as a defunct a16z
+  portfolio lead; it publishes no live website, developer portal, documentation,
+  or API surface today (clinkle.com resolves to a suspended-account page).
 url: https://raw.githubusercontent.com/api-evangelist/clinkle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Peter Thiel
+- Accel
+- Intel Capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-year: 2016
+x-founded-year: 2012
+x-founder: Lucas Duplan
+x-website-status: suspended
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Mobile Payments
+- FinTech
+- Peer To Peer Payments
+- Defunct
+- Startup
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Clinkle
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
